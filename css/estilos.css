@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500 & family= Lobster & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Russo+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Staatliches&family=Ubuntu:ital@1&display=swap'); </style>
+
+body {
+      margin: 30px;
+      padding:50px;
+      font-size: 25px;
+      color: black;
+}
+
+.subtitulo{
+          font-family: 'Kaushan Script', cursive;
+          color:#60AA2D;
+          font-size: 50px;
+          text-align: center;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+}
+
+.parrafo{
+         margin-left: auto;
+         margin-right: auto;
+         font-size: 25px;
+         width:95%;
+         display: flex;
+         justify-content: center;
+         text-align: center;
+}
+
+#carru{
+       padding-top: 20px;
+       height: 500px;
+}
+
+.form{
+      display: flex;
+      justify-content: center;
+}
+
+.listas {
+         font-family: 'Dancing Script', cursive;
+         font-family: 'Lobster', cursive;
+         color: green;
+         text-align: inherit;
+         text-decoration: underline;
+         font-size: 35px;
+         display: flex;
+         flex-wrap: wrap;
+}
+
+.video-musica{
+               width: 100%;
+               height: 100%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+}
+
+.redes{
+      width: 55px;
+      background-color: lightpink;
+    }
+
+.cajas-redes0 img: {
+                     width 100%;
+                     transition: hall 300ms;
+                     position: relative;
+}
+
+.cajas-redes0 img:hover{
+                        transform: scale(1.15);
+}
+
+.lista-jardineria{
+                  height:60vh;
+	                width: 80%;
+                  overflow-y: scroll;
+                  font-family: 'Dancing Script', cursive;
+                  font-family: 'Lobster', cursive;
+                  font-size: 25px;
+                  overflow-y:scroll;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+}
+
+.whatsapp{
+          width: 60px;
+          position: fixed;
+          bottom: 10px;
+          right: 15px;
+}
+
+.whatsapp: {
+            width 100%;
+            transition: hall 300ms;
+            position: relative;
+}
+
+.whatsapp:hover{
+                transform: scale(1.15);
+}
+
+.logo{
+      height: 180px;
+      width: 180px;
+}
+
+.cajas-redes0{
+              background-color: beige;
+              height: 60px;
+              display: flex;
+              justify-content: space-around;
+}
+
+.cajas-redes{
+             display: flex;
+             justify-content: space-around;
+             flex-wrap: wrap;
+}
+
+.cajas-redes img: {
+                    width 100%;
+                    transition: hall 300ms;
+                    position: relative;
+}
+
+.cajas-redes img:hover{
+                       transform: scale(1.15);
+}
+
+.barrio_belgrano: {
+                    width 100%;
+                    transition: hall 300ms;
+                    position: relative;
+}
+
+.barrio_belgrano:hover{
+                     transform: scale(1.15);
+}
+
+ a:hover{
+         color: green;
+ }
+
+.caja-flex{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+}
+
+.row {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 4vh;
+      padding-bottom: 5vh;
+      margin-right: 4;
+      margin-left: 4;
+}
+
+.card{
+      height: 100%;
+      background-color:#ABEBC6;
+}
+.card0{
+       height: 200px;
+}
+
+.card-text{
+           font-size: 16px;
+}
+
+
+.container-fluid{
+                  font-family: 'Lato', sans-serif;
+                  font-family: 'Staatliches', cursive;
+                  font-family: 'Ubuntu', sans-serif;
+                  background-color: #A5FB74;
+}
+
+.logo{
+      margin-left: 50px;
+}
+
+.navbar-brand{
+              font-size: 25px;
+              padding-left: 50px;
+}
+
+.nav-link{
+          font-size: 25px;
+          display: flex;
+          justify-content: space-around;
+          align-items: stretch;
+}
+
+header{
+       width:100%;
+       height:30wh;
+       margin-right: 20px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+ }
+
+.caja-flex{
+           margin: auto;
+           padding: 10px;
+}
+
+#listas{
+        width: 60%;
+        height: auto;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+aside{
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+footer{
+       border: 3px black dotted;
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-around;
+       flex-wrap: wrap;
+}
+
+  @media (max-width: 1400px) {
+    body {
+          background:#F9E79F;
+  }
+}
+
+  @media (max-width: 767px) {
+    body {
+          background: lightpink;
+  }
+}
+  @media (max-width: 991px) {
+    header {
+            background:#BFC9CA;
+  }
+}
+
+  @media (max-width: 767px) {
+    section {
+             width: 100vw;
+  }
+}
+
+  @media (max-width: 767px) {
+  aside {
+         width: 100vw;
+  }
+}
